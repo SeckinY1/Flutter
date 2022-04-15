@@ -8,8 +8,6 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "console": "terminal",
-            "program": "${file}"
         }
     ]
 }
