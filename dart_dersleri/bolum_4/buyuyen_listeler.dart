@@ -9,8 +9,7 @@ void main(List<String> args) {
   print(sayilar.length);
   print(sayilar);
 
-  sayilar.length =
-      10; /*Önceki satırlarda değer gelidkçe sayı yazdı fakat şu anda yaptığımız işlem de dizinin uzunluğunu 100 olarak belirledik. 1' den 5' e kadar       
+  sayilar.length =10; /*Önceki satırlarda değer gelidkçe sayı yazdı fakat şu anda yaptığımız işlem de dizinin uzunluğunu 100 olarak belirledik. 1' den 5' e kadar       
                       sayıları yazdıktan sonra dizinin uzunluğu 10 olarak belirlendiği için geriye kalan değerler null olabileceği için "null safety" hatası alınır. Bu nedenle "int" yanına "?" konulur. Ve bizim verdiğimiz değerlerden sonra gelen değerler "null" olarak ekrana yazdırılır. */
   print(sayilar);
   print("******************");
