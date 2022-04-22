@@ -29,4 +29,5 @@ int hacimHesapla(int en, int boy, int yukseklik) {
 
 //Değer döndüren String fonksiyon
 String flutterOgreniyorum() {
-  return "Flutter Öğreniyorum";}
+  return "Flutter Öğreniyorum";
+}
