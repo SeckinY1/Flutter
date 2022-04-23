@@ -22,12 +22,10 @@ void main(List<String> args) {
 
   //Büyük listelerin gösterim şekli 3:
   List<int> sayilar3 = List.filled(10, 10, growable: true);
-  sayilar3[0] =
-      11; /* Bu komut diğer büyüyen listeler türünde kullanılamaz. Çünkü burada sabit liste yapısını kullandık fakat büyümesine izin verdik. Diğer kullanım   
+  sayilar3[0] = 11; /* Bu komut diğer büyüyen listeler türünde kullanılamaz. Çünkü burada sabit liste yapısını kullandık fakat büyümesine izin verdik. Diğer kullanım   
                       şekillerinde liselerin belli bir elemanı olmadığı için indeksine girip değer verilemez. */
 
-  sayilar3.add(
-      21); /* Yukarıda liste oluştururken 10 
+  sayilar3.add(21); /* Yukarıda liste oluştururken 10 
                       elemanlı olarak sınırlandırdık fakat growable değeri true olduğu için listenin büyümesine izin vermiş olduk. Bu satırda da yeni bir eleman ekliyerek listeyi genişletip 11 elemanlı hale getirdik. */
   print(sayilar3);
   print(sayilar3.length);
