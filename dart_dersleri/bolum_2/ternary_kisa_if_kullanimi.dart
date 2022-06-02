@@ -17,7 +17,7 @@ void main(List<String> args) {
 
   String? ad = null;
   String? soyAd = "Yekrek";
-  String mesaj;
+  String? mesaj;
 
   mesaj = ad ?? soyAd;  
   // ??: Bu operant ise ad değişkeni null ise soyAd değişkenini mesaj değikeni içine kaydet demektir. Null değer karşılaştırmak için kullanılır. 

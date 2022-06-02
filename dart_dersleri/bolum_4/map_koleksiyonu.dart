@@ -20,7 +20,6 @@ void main(List<String> args) {
 
   for (String oAnkiKey in seckin.keys) {
     // Key gezmek için
-
     print(oAnkiKey); //Key değerlerini ekrana yazdırır
     print("Key değerinin karşılığı : ${seckin[oAnkiKey]}"); // Key karşılığı yazdırır
   }
@@ -48,6 +47,6 @@ void main(List<String> args) {
 
   // Boş bir map oluşturmak için iki yol kullanılır. Bunlar;
 
-  Map<String, dynamic> bosMap1 = Map();
+  Map<String, dynamic> bosMap1 = Map(); 
   Map<String, int> bosMap2 = {};
 }

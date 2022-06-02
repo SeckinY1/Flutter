@@ -30,8 +30,12 @@ void main(List<String> args) {
   print(sayilar3);
   sayilar3.removeAt(2); // 2. index' i siler.
   print(sayilar3);
+
   print(sayilar3.contains(9)); // Parantez içine girilen değer liste içinde var mı yok mu onu sorgular.
 
   print(sayilar3.elementAt(3)); // 3. index' te bulunan elemanı ekrana yazdırır.
   print(sayilar3.indexOf(16)); // 16 değerinin hangi index' te olduğunu ekrana yazdırır.
+
+  sayilar3.shuffle(); // Sayilar listesindeki elemanların yerini rastgele değiştirir.
+  print(sayilar3);
 }
