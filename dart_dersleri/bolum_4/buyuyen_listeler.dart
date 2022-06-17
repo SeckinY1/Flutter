@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  //Büyük listelerin gösterim şekli 1:
+  //Büyüyen listelerin gösterim şekli 1:
   List<int?> sayilar = [];
   sayilar.add(1);
   sayilar.add(2);
@@ -14,13 +14,13 @@ void main(List<String> args) {
   print(sayilar);
   print("******************");
 
-  //Büyük listeleri gösterme şekli 2:
+  //Büyüyen listeleri gösterme şekli 2:
   List<int> sayilar2 = [6, 7, 8];
   sayilar2.add(10);
   print(sayilar2);
   print("******************");
 
-  //Büyük listelerin gösterim şekli 3:
+  //Büyüyen listelerin gösterim şekli 3:
   List<int> sayilar3 = List.filled(10, 10, growable: true);
   sayilar3[0] = 11; /* Bu komut diğer büyüyen listeler türünde kullanılamaz. Çünkü burada sabit liste yapısını kullandık fakat büyümesine izin verdik. Diğer kullanım   
                       şekillerinde liselerin belli bir elemanı olmadığı için indeksine girip değer verilemez. */

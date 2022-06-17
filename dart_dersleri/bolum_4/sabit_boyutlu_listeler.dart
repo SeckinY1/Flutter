@@ -4,7 +4,7 @@ void main(List<String> args) {
   List<int> sayilar = List.filled(5, 10); //Listeyi tanımladık. 5, listenin eleman sayısını temsil ederken 10 sayısı default değeri temsil eder.
   sayilar[0] = 1; //Listenin 0. indeksine eleman atadık.
   sayilar[1] = 5; //Listenin 1. indeksine eleman atadık.
-  sayilar[4] = 3; //Listenin 2. indeksine eleman atadık.
+  sayilar[4] = 3; //Listenin 4. indeksine eleman atadık.
 
   print(sayilar.length); //Listenin uzunluğunu ekrana yazdırdık.
   print(sayilar[3]); //Listenin 3. indeksini ekrana yazdırdık.

@@ -27,8 +27,7 @@ void main(List<String> args) {
 
 void ogrenciOlustur(List<Ogrenci> olustur) {
   for (int i = 0; i < olustur.length; i++) {
-    olustur[i] =
-        Ogrenci(id: Random().nextInt(1000), not: Random().nextInt(100));
+    olustur[i] = Ogrenci(id: Random().nextInt(1000), not: Random().nextInt(100));
   }
 }
 
