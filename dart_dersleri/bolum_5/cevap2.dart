@@ -7,5 +7,5 @@ class Ogrenci {
   @override
   String toString() {
     return "ID: $id, Not: $not";
-  }
+  }  
 }

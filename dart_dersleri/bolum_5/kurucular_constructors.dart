@@ -25,7 +25,7 @@ class Araba {
     print("Kurucu metot tetiklendi...");
   } */
 
-/*  Araba(int modelYili, String marka, bool otomatikMi) {
+  /*Araba(int modelYili, String marka, bool otomatikMi) { //Sınıf elemanları ile kurucu parametreleri aynı ada sahip olursa this metodu kullanılmalı ve krucu parametreleri ile sınıf elemanları arasındaki ayrım this metodu ile yapılmalıdır.
     print("Kurucu metot tetiklendi...");
     this.modelYili = modelYili;
     this.marka = marka;
@@ -40,8 +40,7 @@ class Araba {
   Araba.yilsizKurucuMetot(this.otomatikMi, this.marka);
 
   void bilgileriYaz() {
-    print(
-        "Aracın markası: ${marka}, Üretim yılı: ${modelYili}, Şanzıman bilgisi: ${otomatikMi}");
+    print("Aracın markası: ${marka}, Üretim yılı: ${modelYili}, Şanzıman bilgisi: ${otomatikMi}");
   }
 
   void aracinYasi() {

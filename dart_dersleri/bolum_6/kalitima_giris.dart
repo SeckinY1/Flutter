@@ -46,6 +46,7 @@ class SadeceOkuyucuUser extends NormalUser {
     print("Okuyucu user giriş yaptı");
   }
 
+
   @override
   void davetEt() { //NormalUser de bulunan bir metodu override ettik yani bu sınıf için yeniden düzenledik.
     print("Okuyucu arkadaşlarını davet etti");

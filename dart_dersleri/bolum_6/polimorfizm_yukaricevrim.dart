@@ -1,9 +1,9 @@
 void main(List<String> args) {
   User user1 = User();
   User user2 = NormalUser();
-  NormalUser user3 = NormalUser();
-  AdminUser user4 = AdminUser();
+  NormalUser user3 = NormalUser();  
   SadeceOkuyucuUser user5 = SadeceOkuyucuUser();
+  AdminUser user4 = AdminUser();
 
   //Yukarıda bulunmakta olan sınıflar aslında her biri User tipindedir. Buna YUKARI ÇEVRİM denir. 3. satırdaki sınıf tanımı ile 4. satuırdaki tanım aynı anlamak gelmektedir. İkisi de User' in alt sınıfı olduğu için aslında tip olarak User' dırlar.
 
