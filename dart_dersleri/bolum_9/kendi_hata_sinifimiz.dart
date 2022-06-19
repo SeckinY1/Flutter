@@ -4,13 +4,14 @@ void main(List<String> args) {
   } on AgeException catch (e) {
     print(e.mesaj);
   }
-  
 }
 
 class AgeException implements Exception {
   String mesaj;
 
-  AgeException({this.mesaj = "Age Exception"}); /* Defaul bir mesaj değeri girdik ve kullanıcıya bağlı hale getrdik. Kullanıcı Ogrenci sınıfı içinde mesaj değerini değiştirmezse hata 
+  AgeException(
+      {this.mesaj =
+          "Age Exception"}); /* Defaul bir mesaj değeri girdik ve kullanıcıya bağlı hale getrdik. Kullanıcı Ogrenci sınıfı içinde mesaj değerini değiştirmezse hata 
                                                   burada yazıldığı gibi ekrana yazılır. */
 }
 
@@ -19,8 +20,11 @@ class Ogrenci {
 
   Ogrenci(int yas) {
     if (yas < 0) {
-      throw AgeException(mesaj: "Hatalı yaş girildi - Yaş değeri negaif olamaz."); 
-    } else
+      throw AgeException(
+          mesaj: "Hatalı yaş girildi - Yaş değeri negaif olamaz.");
+    } else {
       this.yas = yas;
+      print(yas);
+    }
   }
 }

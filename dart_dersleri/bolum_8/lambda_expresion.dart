@@ -1,9 +1,9 @@
 void main(List<String> args) {
-  Function f1 = () {
+  Function f1 = () { // Parametre almayan isimsiz fonksiyon
     print("Parametresiz fonksiyon denemesi");
   };
 
-  var f2 = (int sayi) {
+  var f2 = (int sayi) { // Parametre alan isimsiz fonksiyon
     return sayi * 2;
   };
 

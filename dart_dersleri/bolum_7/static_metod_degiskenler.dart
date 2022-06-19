@@ -10,7 +10,8 @@ void main(List<String> args) {
   i3.fark();
 
   Matematik.tanit();
-  print(Matematik.PI); //Static anahtar kelimesi kullanılarak çağırılan özellikler sınıf adı ile çağırılır.
+  print(Matematik
+      .PI); //Static anahtar kelimesi kullanılarak çağırılan özellikler sınıf adı ile çağırılır.
   print("Toplam işlem sayısı = ${Matematik.toplamIslemSayisi}");
 }
 
@@ -29,6 +30,7 @@ class Matematik {
   Matematik(this.sayi1, this.sayi2);
 
   void toplam() {
+    tanit();
     toplamIslemSayisi++;
     print("Toplam = ${sayi1 + sayi2}");
   }
