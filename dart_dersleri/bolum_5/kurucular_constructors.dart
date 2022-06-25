@@ -2,7 +2,7 @@ void main(List<String> args) {
   Araba honda = Araba(2020, "Honda", true);
   honda.bilgileriYaz();
   honda.aracinYasi();
-
+  
   Araba reno = Araba(2005, "Reno", false);
   reno.bilgileriYaz();
   reno.aracinYasi();
@@ -21,7 +21,7 @@ class Araba {
   String? marka;
   bool? otomatikMi;
 
-  /* Araba(int modelYili, String marka, bool otomatikMi) {  Bu kurucu metodun yorum satırı yapılma sebebi bir sınıf içerisinde sadece bir kurucu metot bulunabilir.
+  /*Araba(int modelYili, String marka, bool otomatikMi) {  Bu kurucu metodun yorum satırı yapılma sebebi bir sınıf içerisinde sadece bir kurucu metot bulunabilir.
     print("Kurucu metot tetiklendi...");
   } */
 
@@ -40,7 +40,8 @@ class Araba {
   Araba.yilsizKurucuMetot(this.otomatikMi, this.marka);
 
   void bilgileriYaz() {
-    print("Aracın markası: ${marka}, Üretim yılı: ${modelYili}, Şanzıman bilgisi: ${otomatikMi}");
+    print(
+        "Aracın markası: ${marka}, Üretim yılı: ${modelYili}, Şanzıman bilgisi: ${otomatikMi}");
   }
 
   void aracinYasi() {

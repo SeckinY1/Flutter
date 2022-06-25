@@ -13,6 +13,7 @@ class Ogrenci {
   String? ogrAd;
   bool? ogrAktifMi;
 
+
   void dersCalis() {
     // Sınıflar içerisinde fonksiyonlar da tanımlanabilir.
     print("Öğrenci şuanda ders çalışıyor...");
