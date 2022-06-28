@@ -16,7 +16,9 @@ class TemelButonlar extends StatelessWidget {
             style: TextButton.styleFrom(primary: Colors.purple),
           ),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              
+            },
             child: Text("Elevated Button"),
             style: ElevatedButton.styleFrom(primary: Colors.red),
           ),
