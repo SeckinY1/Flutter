@@ -1,0 +1,29 @@
+[
+    {"araba_adi": "Mercedes",
+     "ulke": "Almanya", 
+     "kurulus_yili": 1920,
+        "model":[
+            {"model": "a serisi", 
+             "fiyat": 15000, 
+             "benzinli": true},
+
+             {"model": "c serisi", 
+             "fiyat": 25000, 
+             "benzinli": false}
+             ]
+    },
+    
+    {"araba_adi": "Honda",
+    "ulke": "Japonya", 
+    "kurulus_yili": 1960,
+       "model":[
+           {"model": "civic", 
+            "fiyat": 12000, 
+            "benzinli": true},
+
+            {"model": "jazz", 
+            "fiyat": 10000, 
+            "benzinli": false}
+            ]
+   }
+]
